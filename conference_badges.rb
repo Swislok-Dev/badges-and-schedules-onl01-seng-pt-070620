@@ -4,6 +4,7 @@ end
 
 def batch_badge_creator(attendees)
   attendees.each do |attendees|
+    attendees.pop
     badge_maker(attendees)
   end
 end
