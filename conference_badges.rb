@@ -22,5 +22,9 @@ end
 
 def printer(attendees)
   puts batch_badge_creator(attendees)
-  puts assign_rooms
+  counter = 0
+  assign_rooms.each do
+    puts assign_rooms.index(counter)
+    counter += 1
+  end
 end
