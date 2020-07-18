@@ -3,5 +3,9 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  badge_maker(attendees)
+  count = 0
+  attendees.each do 
+    badge_maker(attendees[count])
+    count += 1
+  end
 end
