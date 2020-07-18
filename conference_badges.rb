@@ -17,4 +17,5 @@ def assign_rooms(attendees)
     var2 = "Hello, #{name}! You'll be assigned to room FIXME!"
     room_assignments.push(var2)
   end
+  room_assignments
 end
