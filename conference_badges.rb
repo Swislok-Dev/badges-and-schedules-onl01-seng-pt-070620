@@ -3,9 +3,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  count = 0
   attendees.each do |count|
-    badge_maker(attendees[count])
-    count += 1
+    badge_maker(count)
+
   end
 end
